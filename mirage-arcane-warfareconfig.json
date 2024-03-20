@@ -33,8 +33,8 @@
         "InputType":"number",
         "MinValue":"0",
         "ParamFieldName":"/Script/TBL.TBLVoteKick.TimeBannedFromServer",
-        "DefaultValue":"30.000000",
-        "Placeholder":"30.000000",
+        "DefaultValue":"300.000000",
+        "Placeholder":"300.000000",
         "EnumValues":{}
     },
     {
@@ -136,7 +136,7 @@
     {
         "DisplayName":"Custom Startup Args",
         "Category":"Mirage Server Settings",
-        "Description":"Sets custom startup options for the server. Don't use options already in AMP's settings! On Windows this is where you would put the -multihome= parameter",
+        "Description":"Sets custom startup options for the server. Don't use options already in AMP's settings!",
         "Keywords":"custom,command,line,options",
         "FieldName":"Customargs",
         "InputType":"text",
