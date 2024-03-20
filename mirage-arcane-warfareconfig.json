@@ -97,7 +97,7 @@
         "Category":"Mirage Server Settings",
         "Description":"Sets the Idle Kick Time",
         "Keywords":"idle,time,idleTime",
-        "FieldName":"ConfigWarmupTime",
+        "FieldName":"IdleKickTime",
         "InputType":"number",
         "MinValue":"0",
         "ParamFieldName":"/Script/TBL.TBLPlayerController.IdleKickTime",
@@ -110,7 +110,7 @@
         "Category":"Mirage Server Settings",
         "Description":"Sets the Idle Warning Time",
         "Keywords":"idle,time,idleTime",
-        "FieldName":"ConfigWarmupTime",
+        "FieldName":"IdleWarningTime",
         "InputType":"number",
         "MinValue":"0",
         "ParamFieldName":"/Script/TBL.TBLPlayerController.IdleWarningTime",
@@ -119,11 +119,24 @@
         "EnumValues":{}
     },
     {
+        "DisplayName":"Minimum Players to Start",
+        "Category":"Mirage Server Settings",
+        "Description":"Sets the players required to start",
+        "Keywords":"start,time,startTime",
+        "FieldName":"MinPlayersToHostForBackend",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"/Script/TBL.TBLGameSession.MinPlayersToHostForBackend",
+        "DefaultValue":"2.000000",
+        "Placeholder":"2.000000",
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"Player Limit",
         "Category":"Mirage Server Settings",
         "Description":"Sets the maximum number of players allowed on the server at one time",
         "Keywords":"max,players,slots,limit,maxplayers",
-        "FieldName":"$MaxUsers",
+        "FieldName":"MaxPlayers",
         "InputType":"number",
         "MinValue":"1",
         "MaxValue":"64",
@@ -133,6 +146,48 @@
         "Suffix":"players",
         "EnumValues":{}
     },
+	{
+        "DisplayName":"Auto Balance Players by Team Numbers",
+        "Category":"Mirage Server Settings",
+        "Description":"If set, Teams will be balanced by player count",
+        "Keywords":"team,balance,teambalance",
+        "FieldName":"AutoBalancePlayersByTeamNumbers",
+        "InputType":"checkbox",
+        "ParamFieldName":"/Script/TBL.TBLGameMode.AutoBalancePlayersByTeamNumbers",
+        "DefaultValue":"false",
+        "EnumValues":{
+            "False":"false",
+            "True":"true"
+        }
+    },
+	{
+        "DisplayName":"Auto Balance Teams by Kills",
+        "Category":"Mirage Server Settings",
+        "Description":"If set, Teams will be balanced by kill count",
+        "Keywords":"team,balance,teambalance",
+        "FieldName":"AutoBalancePlayersByKills",
+        "InputType":"checkbox",
+        "ParamFieldName":"/Script/TBL.TBLGameMode.AutoBalancePlayersByKills",
+        "DefaultValue":"false",
+        "EnumValues":{
+            "False":"false",
+            "True":"true"
+        }
+    },
+	{
+        "DisplayName":"Bot Assisted Server",
+        "Category":"Mirage Server Settings",
+        "Description":"If set, bots will populate until players join",
+        "Keywords":"team,player,bots",
+        "FieldName":"bConfigBotAssistedServer",
+        "InputType":"checkbox",
+        "ParamFieldName":"/Script/TBL.TBLGameMode.bConfigBotAssistedServer",
+        "DefaultValue":"false",
+        "EnumValues":{
+            "False":"false",
+            "True":"true"
+        }
+    },	
     {
         "DisplayName":"Custom Startup Args",
         "Category":"Mirage Server Settings",
