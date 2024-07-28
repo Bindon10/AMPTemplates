@@ -140,7 +140,7 @@
         "InputType":"number",
         "MinValue":"0",
         "MaxValue":"500",
-        "ParamFieldName":"sv_maxplayers",
+        "ParamFieldName":"ship_quarry_hint_interval",
         "DefaultValue":"30",
         "Placeholder":"30",
         "EnumValues":{}
@@ -411,7 +411,7 @@
         "InputType":"number",
         "MinValue":"0",
         "MaxValue":"5000",
-        "ParamFieldName":"ship_kick_ban minutes",
+        "ParamFieldName":"ship_kick_ban_minutes",
         "DefaultValue":"60",
         "Placeholder":"60",
         "EnumValues":{}

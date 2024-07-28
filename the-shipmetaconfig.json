@@ -2,6 +2,7 @@
     {
         "ConfigFile":"ship/cfg/server.cfg",
         "AutoMap":true,
-        "ConfigType":"cfg",
+        "ConfigType":"template",
+        "ConfigFileTemplate":"ship/AMP_server.cfg"
     }
 ]
