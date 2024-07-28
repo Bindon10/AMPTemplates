@@ -118,7 +118,7 @@
     {
         "DisplayName":"Quarry Hint Interval",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Gameplay Settings:settings:1",
         "Description":"Number of seconds between the updates for Quarry Hints (0 = off)",
         "Keywords":"quarry,hint,interval,seconds",
         "FieldName":"ship_quarry_hint_interval",
@@ -133,7 +133,7 @@
     {
         "DisplayName":"Update interval in World Leader Modes",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Gameplay Settings:settings:1",
         "Description":"Number of seconds until next update in World Leaders Modes (0 = Off)",
         "Keywords":"world,leader,modes,interval",
         "FieldName":"ship_wl_quarry_hint_interval",
