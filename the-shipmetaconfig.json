@@ -2,6 +2,6 @@
     {
         "ConfigFile":"ship/cfg/server.cfg",
         "AutoMap":true,
-        "ConfigType":"template",
+        "ConfigType":"cfg",
     }
 ]
