@@ -24,6 +24,21 @@
         "EnumValues":{}
     },
     {
+        "DisplayName":"Max Players",
+        "Category":"The Ship:stadia_controller",
+        "Subcategory":"Server Settings:settings:1",
+        "Description":"Maximum number of players that can join the server",
+        "Keywords":"player,count,max,players",
+        "FieldName":"maxplayers",
+        "InputType":"number",
+        "MinValue":"0",
+        "MaxValue":"64",
+        "ParamFieldName":"maxplayers",
+        "DefaultValue":"8",
+        "Placeholder":"8",
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"LAN Server",
         "Category":"The Ship:stadia_controller",
         "Subcategory":"Server Settings:settings:1",
