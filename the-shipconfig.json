@@ -148,7 +148,7 @@
     {
         "DisplayName":"Quarry Compass",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Gameplay Settings:settings:1",
         "Description":"Sets whether the Quarry compass is enabled",
         "Keywords":"quarry,compass",
         "FieldName":"ship_compass_quarry",
@@ -269,7 +269,7 @@
     {
         "DisplayName":"Victory Bank Amount",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Gameplay Settings:settings:1",
         "Description":"Amount of money required for a victory condition",
         "Keywords":"victory,bank,money,win,winning",
         "FieldName":"ship_victory_bank",
@@ -284,7 +284,7 @@
     {
         "DisplayName":"Witness Requirement",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Gameplay Settings:settings:1",
         "Description":"Amount of witnesses required for a player to be arrested",
         "Keywords":"arrest,witness,witnesses",
         "FieldName":"ship_witnesses",
@@ -299,7 +299,7 @@
     {
         "DisplayName":"Player Arrest Time",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Gameplay Settings:settings:1",
         "Description":"Time in seconds before player is arrested while being witnessed (by number of witnesses)",
         "Keywords":"arrest,witness,witnesses",
         "FieldName":"ship_witnesses_time_limit",
@@ -418,25 +418,25 @@
         "EnumValues":{}
     },
     {
-        "DisplayName":"Enable Votekick",
+        "DisplayName":"Disable Votekick",
         "Category":"The Ship:stadia_controller",
         "Subcategory":"Moderation Settings:settings:1",
-        "Description":"Sets whether the Votekick system is enabled",
+        "Description":"Sets whether the Votekick system is Disabled",
         "Keywords":"kick,votekick,bans,ban,vote,votes",
         "FieldName":"votekick_disable",
         "InputType":"checkbox",
         "ParamFieldName":"votekick_disable",
-        "DefaultValue":"0",
+        "DefaultValue":"1",
         "EnumValues":{
             "False":"0",
             "True":"1"
         }
     },
     {
-        "DisplayName":"Enable Map Voting",
+        "DisplayName":"Disable Map Voting",
         "Category":"The Ship:stadia_controller",
         "Subcategory":"Server Settings:settings:1",
-        "Description":"Sets whether the Map Vote system is enabled",
+        "Description":"Sets whether the Map Vote system is Disabled",
         "Keywords":"votemap,map,maps,vote,votes",
         "FieldName":"votemap_disable",
         "InputType":"checkbox",
@@ -448,10 +448,10 @@
         }
     },
     {
-        "DisplayName":"Enable Mode Voting",
+        "DisplayName":"Disable Mode Voting",
         "Category":"The Ship:stadia_controller",
         "Subcategory":"Server Settings:settings:1",
-        "Description":"Sets whether the gamemode voting system is enabled",
+        "Description":"Sets whether the gamemode voting system is Disabled",
         "Keywords":"votemode,mode,modes,voting,vote",
         "FieldName":"votemode_disable",
         "InputType":"checkbox",
@@ -465,7 +465,7 @@
     {
         "DisplayName":"Vote Cooldown",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Moderation Settings:settings:1",
         "Description":"Duration in seconds in which a player must wait before calling another vote",
         "Keywords":"votes,vote,cooldown,Duration",
         "FieldName":"ship_vote_pause_time_seconds",
