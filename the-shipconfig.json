@@ -55,7 +55,7 @@
         "Category":"The Ship:stadia_controller",
         "Subcategory":"Server Settings:settings:1",
         "Description":"Sets the game mode to start the server with."
-        "Keywords":"game,mode,gamemode,game_mode,game_type",
+        "Keywords":"game,mod,gamemode,game_mode,game_type",
         "FieldName":"gamemode",
         "InputType":"enum",
         "ParamFieldName":"gamemode",
