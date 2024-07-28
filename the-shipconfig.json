@@ -154,7 +154,6 @@
         "FieldName":"ship_compass_quarry",
         "InputType":"enum",
         "ParamFieldName":"ship_compass_quarry",
-        "IncludeInCommandLine":true,
         "DefaultValue":"0",
         "EnumValues":{
             "0":"Off",
