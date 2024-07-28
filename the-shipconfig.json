@@ -330,7 +330,7 @@
     {
         "DisplayName":"Innocent kills before being warned",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Moderation Settings:settings:1",
         "Description":"Number of innocent kills before a player is warned",
         "Keywords":"bans,warn,warning,innocent,kills,kill",
         "FieldName":"ship_innocent_kills_warning",
@@ -345,7 +345,7 @@
     {
         "DisplayName":"Innocent kills before being kicked and banned",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Moderation Settings:settings:1",
         "Description":"Number of innocent kills before a player is kicked and banned",
         "Keywords":"bans,warn,warning,innocent,kills,kill",
         "FieldName":"ship_kick_innocent_kills",
@@ -360,7 +360,7 @@
     {
         "DisplayName":"Bank Balance before warning",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Moderation Settings:settings:1",
         "Description":"Bank balance required before a player is warned",
         "Keywords":"bans,warn,warning,bank,balance,money",
         "FieldName":"ship_kick_cash_warning",
@@ -375,7 +375,7 @@
     {
         "DisplayName":"Bank Balance before kick and ban",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Moderation Settings:settings:1",
         "Description":"Bank balance required before a player is kicked and banned",
         "Keywords":"bans,warn,warning,bank,balance,money",
         "FieldName":"ship_kick_cash",
@@ -390,7 +390,7 @@
     {
         "DisplayName":"Kick/Ban Duration",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Moderation Settings:settings:1",
         "Description":"Duration in minutes for which players are kicked/banned",
         "Keywords":"bans,warn,warning,kick",
         "FieldName":"ship_kick_ban_minutes",
@@ -405,7 +405,7 @@
     {
         "DisplayName":"Kick/Ban Duration after vote",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Moderation Settings:settings:1",
         "Description":"Duration in minutes for which players are kicked/banned after a vote",
         "Keywords":"bans,warn,warning,kick",
         "FieldName":"ship_kick_vote_ban_minutes",
@@ -420,17 +420,16 @@
     {
         "DisplayName":"Enable Votekick",
         "Category":"The Ship:stadia_controller",
-        "Subcategory":"Server Settings:settings:1",
+        "Subcategory":"Moderation Settings:settings:1",
         "Description":"Sets whether the Votekick system is enabled",
         "Keywords":"kick,votekick,bans,ban,vote,votes",
         "FieldName":"votekick_disable",
-        "InputType":"enum",
+        "InputType":"checkbox",
         "ParamFieldName":"votekick_disable",
-        "IncludeInCommandLine":true,
         "DefaultValue":"0",
         "EnumValues":{
-            "0":"False",
-            "1":"true"
+            "False":"0",
+            "True":"1"
         }
     },
     {
@@ -440,13 +439,12 @@
         "Description":"Sets whether the Map Vote system is enabled",
         "Keywords":"votemap,map,maps,vote,votes",
         "FieldName":"votemap_disable",
-        "InputType":"enum",
+        "InputType":"checkbox",
         "ParamFieldName":"votemap_disable",
-        "IncludeInCommandLine":true,
         "DefaultValue":"0",
         "EnumValues":{
-            "0":"False",
-            "1":"true"
+            "False":"0",
+            "True":"1"
         }
     },
     {
@@ -456,13 +454,12 @@
         "Description":"Sets whether the gamemode voting system is enabled",
         "Keywords":"votemode,mode,modes,voting,vote",
         "FieldName":"votemode_disable",
-        "InputType":"enum",
+        "InputType":"checkbox",
         "ParamFieldName":"votemode_disable",
-        "IncludeInCommandLine":true,
         "DefaultValue":"0",
         "EnumValues":{
-            "0":"False",
-            "1":"true"
+            "False":"0",
+            "True":"1"
         }
     },
     {
@@ -487,29 +484,27 @@
         "Description":"Sets whether the gamemode is randomized per Map",
         "Keywords":"randomized,mode,modes,random",
         "FieldName":"ship_game_mode_random",
-        "InputType":"enum",
+        "InputType":"checkbox",
         "ParamFieldName":"ship_game_mode_random",
-        "IncludeInCommandLine":true,
         "DefaultValue":"0",
         "EnumValues":{
-            "0":"False",
-            "1":"true"
+            "False":"0",
+            "True":"1"
         }
     },
     {
         "DisplayName":"Gamemode Reset",
         "Category":"The Ship:stadia_controller",
         "Subcategory":"Server Settings:settings:1",
-        "Description":"Sets whether the gamemode is reset back to the mode specified in the config file when the map changes",
+        "Description":"Sets whether the gamemode is reset back to the mode specified in the server config file when the map changes",
         "Keywords":"gamemode,mode,modes,Reset",
         "FieldName":"ship_game_mode_reset_after_vote",
-        "InputType":"enum",
+        "InputType":"checkbox",
         "ParamFieldName":"ship_game_mode_reset_after_vote",
-        "IncludeInCommandLine":true,
         "DefaultValue":"0",
         "EnumValues":{
-            "0":"False",
-            "1":"true"
+            "False":"0",
+            "True":"1"
         }
     },
     {
