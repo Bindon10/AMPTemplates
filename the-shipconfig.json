@@ -54,7 +54,7 @@
         "DisplayName":"Initial Game Mode",
         "Category":"The Ship:stadia_controller",
         "Subcategory":"Server Settings:settings:1",
-        "Description":"Sets the game mode to start the server with."
+        "Description":"Sets the game mode to start the server with.",
         "Keywords":"game,mod,gamemode,game_mode,game_type",
         "FieldName":"gamemode",
         "InputType":"enum",
@@ -324,7 +324,7 @@
         "EnumValues":{
             "NEED_ID_BG_DEFAULT_HIGH":"NEED_ID_BG_DEFAULT_HIGH",
             "NEED_ID_BG_DEFAULT_MEDIUM":"NEED_ID_BG_DEFAULT_MEDIUM",
-            "NEED_ID_BG_DEFAULT_LOW":"NEED_ID_BG_DEFAULT_LOW",
+            "NEED_ID_BG_DEFAULT_LOW":"NEED_ID_BG_DEFAULT_LOW"
         }
     },
     {
@@ -341,7 +341,6 @@
         "DefaultValue":"2",
         "Placeholder":"2",
         "EnumValues":{}
-        }
     },
     {
         "DisplayName":"Innocent kills before being kicked and banned",
@@ -357,7 +356,6 @@
         "DefaultValue":"4",
         "Placeholder":"4",
         "EnumValues":{}
-        }
     },
     {
         "DisplayName":"Bank Balance before warning",
@@ -373,7 +371,6 @@
         "DefaultValue":"-5000",
         "Placeholder":"-5000",
         "EnumValues":{}
-        }
     },
     {
         "DisplayName":"Bank Balance before kick and ban",
@@ -389,7 +386,6 @@
         "DefaultValue":"-7500",
         "Placeholder":"-7500",
         "EnumValues":{}
-        }
     },
     {
         "DisplayName":"Kick/Ban Duration",
@@ -405,7 +401,6 @@
         "DefaultValue":"60",
         "Placeholder":"60",
         "EnumValues":{}
-        }
     },
     {
         "DisplayName":"Kick/Ban Duration after vote",
@@ -421,7 +416,6 @@
         "DefaultValue":"30",
         "Placeholder":"30",
         "EnumValues":{}
-        }
     },
     {
         "DisplayName":"Enable Votekick",
@@ -485,7 +479,6 @@
         "DefaultValue":"20",
         "Placeholder":"20",
         "EnumValues":{}
-        }
     },
     {
         "DisplayName":"Randomize Gamemodes",
@@ -548,7 +541,6 @@
         "DefaultValue":"4",
         "Placeholder":"4",
         "EnumValues":{}
-        }
     },
     {
         "DisplayName":"Maximum allowed bot teams",
@@ -564,7 +556,6 @@
         "DefaultValue":"4",
         "Placeholder":"4",
         "EnumValues":{}
-        }
     },
     {
         "DisplayName":"Server/RCON IPv4 IP Binding",
