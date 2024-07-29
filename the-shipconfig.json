@@ -71,17 +71,17 @@
         "Subcategory":"Server Settings:settings:1",
         "Description":"Sets the game mode to start the server with.",
         "Keywords":"game,mod,gamemode,game_mode,game_type",
-        "FieldName":"gamemode",
+        "FieldName":"ship_game_mode",
         "InputType":"enum",
-        "ParamFieldName":"gamemode",
-        "DefaultValue":"+game_mode 0",
+        "ParamFieldName":"ship_game_mode",
+        "DefaultValue":"ship_game_mode 0",
         "EnumValues":{
-            "+game_mode 0":"Hunt",
-            "+game_mode 1":"Elimination",
-            "+game_mode 2":"Duel",
-            "+game_mode 3":"Deathmatch",
-            "+game_mode 4":"Team VIP",
-            "+game_mode 5":"Team Elimination"
+            "ship_game_mode 0":"Hunt",
+            "ship_game_mode 1":"Elimination",
+            "ship_game_mode 2":"Duel",
+            "ship_game_mode 3":"Deathmatch",
+            "ship_game_mode 4":"Team VIP",
+            "ship_game_mode 5":"Team Elimination"
         }
     },
     {
