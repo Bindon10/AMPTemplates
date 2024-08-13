@@ -1,6 +1,6 @@
 [	
     {
-        "ConfigFile":"TBL/Config/OverrideEngine.ini", 
+        "ConfigFile":"TBL/Config/DefaultGame.ini", 
         "AutoMap":true,
         "ConfigType":"ini"
     },
