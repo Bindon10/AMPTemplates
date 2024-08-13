@@ -174,15 +174,6 @@
             "True":"true"
         }
     },
-	{
-        "DisplayName":"Bot Assisted Server",
-        "Category":"Mirage Server Settings",
-        "Description":"This Setting is Broken, Manually add bConfigBotAssistedServer under /Script/TBL.TBLGameMode under where your server name is",
-        "Keywords":"bot,bots,players",
-        "FieldName":"bConfigBotAssistedServer",
-        "InputType":"hidden"
-        }
-    },
     {
         "DisplayName":"Custom Startup Args",
         "Category":"Mirage Server Settings",
