@@ -12,7 +12,7 @@
         "UpdateSourceData":"https://raw.githubusercontent.com/Bindon10/AMPTemplates/main/mirage-arcane-warfaredefaultgame.ini",
         "UpdateSourceTarget":"{{$FullBaseDir}}TBL/Config",
         "UpdateSourceArgs":"DefaultGame.ini",
-        "OverwriteExistingFiles":true
+        "OverwriteExistingFiles":false
     },
     {
         "UpdateStageName":"SteamCMD Download",
