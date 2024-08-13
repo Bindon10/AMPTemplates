@@ -177,15 +177,9 @@
 	{
         "DisplayName":"Bot Assisted Server",
         "Category":"Mirage Server Settings",
-        "Description":"If set, bots will fill in for players when the game starts and leave as people join the server",
+        "Description":"This Setting is Broken, Manually add bConfigBotAssistedServer under /Script/TBL.TBLGameMode under where your server name is",
         "Keywords":"bot,bots,players",
-        "FieldName":"bConfigBotAssistedServer",
-        "InputType":"checkbox",
-        "ParamFieldName":"/Script/TBL.TBLGameMode.bConfigBotAssistedServer",
-        "DefaultValue":"false",
-        "EnumValues":{
-            "False":"false",
-            "True":"true"
+        "InputType":"Hidden"
         }
     },
     {
